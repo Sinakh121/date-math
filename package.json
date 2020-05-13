@@ -1,7 +1,7 @@
 {
-  "name": "date-arithmetic",
-  "version": "4.1.0",
-  "description": "simple date math util",
+  "name": "date-calc-general-code",
+  "version": "1.0.0",
+  "description": "simple date math util for using with didgah-GeneralCode",
   "main": "index.cjs.js",
   "module": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jquense/date-math.git"
+    "url": "git+https://github.com/Sinakh121/date-math.git"
   },
   "keywords": [
     "moment",
@@ -18,17 +18,19 @@
     "math"
   ],
   "author": {
-    "name": "Jason Quense @monasticpanic"
+    "name": "Jason Quense @monasticpanic & Sina Khodabandehloo"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jquense/date-math/issues"
+    "url": "https://github.com/Sinakh121/date-math/issues"
   },
-  "homepage": "https://github.com/jquense/date-math",
+  "homepage": "https://github.com/Sinakh121/date-math",
   "devDependencies": {
     "esm": "^3.2.25",
     "rollup": "^1.14.4"
   },
+  "dependencies": {
+	"jalali-moment": "^3.3.3"
+  },
   "readme": "ERROR: No README data found!",
-  "_id": "date-arithmetic@4.0.1"
 }

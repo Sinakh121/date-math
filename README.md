@@ -63,3 +63,8 @@ Arithmetic functions
 - `dateMath.diff(dateA, dateB, unit, asFloat)`
 
 Valid unit values are; `"seconds", "minutes", "hours", "day", "week", "month", "year", "decade", "century" `
+
+
+
+### As of Didgah
+it works bilingual ("en/fa") based on the General Object Properties
