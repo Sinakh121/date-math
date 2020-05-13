@@ -2,35 +2,23 @@
   "name": "date-calc-general-code",
   "version": "1.0.0",
   "description": "simple date math util for using with didgah-GeneralCode",
-  "main": "index.cjs.js",
-  "module": "index.js",
+  "main": "index.cj.min.js",
+  "dependencies": {
+    "jalali-moment": "^3.3.3",
+    "rollup": "^2.10.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "node -r esm test.js",
-    "prepublishOnly": "rollup --input index.js --file index.cjs.js --format cjs"
+    "test": "node -r esm test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sinakh121/date-math.git"
   },
-  "keywords": [
-    "moment",
-    "date",
-    "math"
-  ],
-  "author": {
-    "name": "Jason Quense @monasticpanic & Sina Khodabandehloo"
-  },
+  "author": "Jason Quense @monasticpanic & Sina Khodabandehloo",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Sinakh121/date-math/issues"
   },
-  "homepage": "https://github.com/Sinakh121/date-math",
-  "devDependencies": {
-    "esm": "^3.2.25",
-    "rollup": "^1.14.4"
-  },
-  "dependencies": {
-	"jalali-moment": "^3.3.3"
-  },
-  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/Sinakh121/date-math#readme"
 }
