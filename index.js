@@ -1,3 +1,5 @@
+import moment from "jalali-moment";
+
 var MILI    = 'milliseconds'
   , SECONDS = 'seconds'
   , MINUTES = 'minutes'
@@ -112,6 +114,9 @@ export function startOf(d, unit, firstOfWeek) {
         d = month(d, 0);
     case MONTH:
         d = date(d, 1);
+		if (window.General.LanguageCode === "fa"){
+          d = moment(d).startOf('jMonth').toDate();
+        }
     case WEEK:
     case DAY:
         d = hours(d, 0);
